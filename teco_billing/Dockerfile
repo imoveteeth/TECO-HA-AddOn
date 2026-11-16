@@ -2,6 +2,7 @@
 # Slim Python base + Chromium only — installed right after the pip package so
 # Playwright and its browser are always the same version (the full
 # mcr.microsoft.com/playwright image pins an older browser and is ~6 GB).
+# 
 FROM python:3.12-slim-bookworm
 
 ENV PYTHONUNBUFFERED=1 \
